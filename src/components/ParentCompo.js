@@ -19,7 +19,7 @@ class ParentCompo extends Component {
                 name: "Aung Aung",
                 isA: false
             })
-        }else {
+        } else {
             this.setState({
                 name: "Mg Mg",
                 isA: true
@@ -29,8 +29,10 @@ class ParentCompo extends Component {
 
     render() {
         return (
-            <div> {this.state.name}
+            <div>
+                {this.state.name}
                 <button onClick={this.HandlerCondation}>Change Name</button>
+                <Acompo />
             </div>
 
         )
