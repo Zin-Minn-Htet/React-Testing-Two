@@ -8,6 +8,7 @@ function App() {
         <li>Calculator Branch+ </li>
         <li>Counter Branch+ </li>
         <li>To Do List Branch+ </li>
+        <li>Weather App Branch</li>
       </ul>
     </div>
   );
